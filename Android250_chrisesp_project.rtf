@@ -1,0 +1,26 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww15740\viewh17220\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 \
+Android CP 250 - Spring 2014\
+Chris Esposito\
+\
+Last term I did several parts (live location data, putting points of interest markers on a Google Maps display, live video feed) of what will become an augmented reality app that will run at least on a phone / tablet; if I can eventually get it to run on something like Google Glass or Recon Jet (my real goal for this line of work), so much the better.  However since we cover this material in more depth in the 3rd course I\'92d like to postpone more work on this until next term.\
+\
+Instead this term I\'92d like to do a simple Open GL ES game for experimenting with multitouch gestures for 3D camera and object manipulation. I\'92ve done some multitouch gesture work in iOS and Qt, and have done interactive Open GL stuff since the early 1990s, but haven\'92t done the combination.\
+\
+The project will have the following elements:\
+\
+1) some simple flat 3D surface with a 3D bumpered border (e.g., a pool table or air hockey table).  I\'92ll either construct the geometry for these programmatically at startup, or load in some geometry (e.g., .obj) files for them. I\'92ve accumulated a library of simple test objects for tasks at work over the years.\
+\
+2) at least 2 objects on the game surface (a pair of pool balls, or a paddle and puck for air hockey) - makes for some more interesting dynamics and collision detection.\
+\
+3) the use of one gesture to select an object, another to initiate setting the selected object in motion, a third to translate the game surface world in the plane of the screen, and a fourth to rotate the game surface around at least one axis.\
+\
+4) the use of some simple mechanism (maybe just a timer, maybe a very simple physics / motion model) to make sure that the object(s) in motion eventually stop.\
+\
+\
+}
