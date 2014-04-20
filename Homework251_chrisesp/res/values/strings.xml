@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Homework251_chrisesp</string>
+   <string name="screen_heading">Login Screen</string>
+   <string name="email_label">Email:</string>
+   <string name="password_label">Password:</string>
+   <string name="Login">Login:</string>
+   <string name="email_hint">your email address</string>
+	<string name="hello_world">Summary Screen</string>
+	<string name="summary_label">Summary Screen</string>
+	<string name="action_settings">Settings</string>
+
+</resources>
